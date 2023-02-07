@@ -1,10 +1,12 @@
 .main {
-  background-color: #fafafa;
+  background-color: #fbfcfc;
 }
 .mainpagehead {
   margin-top: 75px;
 }
-
+.login .mainpagehead {
+  height: 90vh !important;
+}
 .carousel-item {
   min-height: 300px;
   max-height: 800px;

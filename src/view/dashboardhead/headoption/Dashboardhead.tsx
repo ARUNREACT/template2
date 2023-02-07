@@ -76,44 +76,6 @@ export function Dashboardhead() {
                   footaname={"About Us"}
                 />
 
-                {/* <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-                  >
-                    Products
-                  </a>
-
-                  <ul className="dropdown-menu ">
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/moneytransfer"}
-                      footaname={"Money Transfer"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/aadhaar"}
-                      footaname={"Aadhaar Banking / Cash-out"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/Utility"}
-                      footaname={"Utility and Bill Payment"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/sellinsurance"}
-                      footaname={"Sell Insurance"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item border-0"}
-                      href={"/nepalmoney"}
-                      footaname={"Indo-Nepal Money Transfer"}
-                    />
-                  </ul>
-                </li> */}
-
                 <Headeroption
                   footerli={"nav-item"}
                   foota={"nav-link"}
@@ -135,61 +97,10 @@ export function Dashboardhead() {
                   footaname={"Contactus"}
                 />
 
-                {/* <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-                  >
-                    Developers
-                  </a>
-
-                  <ul className="dropdown-menu ">
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/platform"}
-                      footaname={"Platform Services"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/"}
-                      footaname={"API references"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item border-0"}
-                      href={"/"}
-                      footaname={"Developer Guide"}
-                    />
-                  </ul>
-                </li> */}
-
-                {/* <li className="nav-item dropdown">
-                  <a
-                    className="nav-link  dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-                  >
-                    Company
-                  </a>
-
-                  <ul className="dropdown-menu ">
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"/aboutus"}
-                      footaname={"About Us"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item border-0"}
-                      href={"/"}
-                      footaname={"Blogs"}
-                    />
-                  </ul>
-                </li> */}
-
                 <Headeroption
                   footerli={"nav-item"}
                   foota={"nav-link"}
-                  href={"/"}
+                  href={"/login"}
                   footaname={"Login"}
                 />
               </ul>

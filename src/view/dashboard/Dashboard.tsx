@@ -7,7 +7,7 @@ export function Dashboard() {
   return (
     <div className="main">
       <Dashboardhead />
-      <div className="mainpagehead">
+      <div data-aos="zoom-in" className="mainpagehead">
         <div
           id="carouselExampleDark"
           className="carousel carousel-dark slide"
@@ -82,7 +82,11 @@ export function Dashboard() {
       </div>
 
       <Text h1={"𝗢𝗨𝗥 𝗣𝗔𝗥𝗧𝗡𝗘𝗥𝗦"} h2={"𝗢𝗨𝗥 𝗣𝗔𝗥𝗧𝗡𝗘𝗥𝗦"} />
-      <div className="container infinite-scroll" id="container">
+      <div
+        data-aos="fade-up"
+        className="container infinite-scroll "
+        id="container"
+      >
         <div className="scroll-img">
           <img src="https://vidcom.in/images/razorpay.png" alt="" />
           <img src="https://vidcom.in/images/paytm.png" alt="" />

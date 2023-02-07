@@ -14,7 +14,7 @@ export function Footeroption(props: any) {
 
 export function Dashboardfooter() {
   return (
-    <div data-aos="fade-up" className="main-footer">
+    <div data-aos="zoom-in" className="main-footer">
       <div className="col-lg-11 mt-5 mx-auto py-4 ">
         <div className="row foot justify-content-center ">
           <div className="footimg col-12 col-md-3 col-lg-3">
@@ -34,11 +34,11 @@ export function Dashboardfooter() {
           <div className="foot1 col-6 col-sm-4 col-md-3 col-lg-3 ">
             <Footeroption
               footheadclassname={"foothead my-4 pt-3 "}
-              footerhead={"DEVELOPER"}
+              footerhead={"GENERAL"}
             />
-            <Footeroption href={"/"} footeroption={"DMT API"} />
-            <Footeroption href={"/"} footeroption={"AePS Cashout SDK"} />
-            <Footeroption href={"/"} footeroption={"Fund Settlement API"} />
+            <Footeroption href={"/"} footeroption={"Home"} />
+            <Footeroption href={"/aboutus"} footeroption={"About us"} />
+            <Footeroption href={"/services"} footeroption={"Services"} />
           </div>
 
           <div className="foot1 col-6 col-sm-4 col-md-3 col-lg-2 ">
@@ -46,8 +46,9 @@ export function Dashboardfooter() {
               footheadclassname={"foothead my-4 pt-3 "}
               footerhead={"COMPANY"}
             />
-            <Footeroption href={"/"} footeroption={"About Us"} />
-            <Footeroption href={"/"} footeroption={"Privacy Policy"} />
+            <Footeroption href={"/founding"} footeroption={"Founding Team"} />
+            <Footeroption href={"/contactus"} footeroption={"Contact us"} />
+            <Footeroption href={"/login"} footeroption={"Login"} />
           </div>
 
           <div className="text-center col-12 col-sm-4 col-md-3 col-lg-3 ">
@@ -78,7 +79,7 @@ export function Dashboardfooter() {
           </div>
         </div>
       </div>
-      <h6 className="text-center fw-light py-4">
+      <h6 className="text-center fw-light py-4 m-0">
         © 2022 PayPe Technologies Private Limited.
       </h6>
     </div>

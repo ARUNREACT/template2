@@ -1,5 +1,6 @@
-import { PersonFill, LockFill } from "react-bootstrap-icons";
+// import { PersonFill, LockFill } from "react-bootstrap-icons";
 import {
+  Button,
   Firstsildes,
   Input,
   Testimonial,
@@ -20,58 +21,56 @@ export function Contactus() {
       </div>
       <Text h1={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} h2={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} />
 
-      <div className="mt-5">
-        <div className=" mx-auto d-flex jj flex-wrap justify-content-center px-lg-0 px-sm-5 py-5">
+      <div className="mt-5" data-aos="zoom-out">
+        <div className=" mx-auto d-flex contactus-login flex-wrap justify-content-center px-lg-0 px-sm-5">
           <Input
             inputdiv={"input-div col-lg-4 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 "}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
+            placeholder={"First Name"}
             type={"name"}
           />
           <Input
             inputdiv={"input-div col-lg-4 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 col-11"}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
+            placeholder={"Last Name"}
             type={"name"}
           />
           <Input
             inputdiv={"input-div col-lg-4 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 col-11"}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
+            placeholder={"Email Address"}
             type={"name"}
           />
           <Input
             inputdiv={"input-div four col-lg-8 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 col-11"}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
+            placeholder={"Organization"}
             type={"name"}
           />
           <Input
             inputdiv={"input-div col-md-4 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 col-11"}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
+            placeholder={"Mobile Number"}
             type={"name"}
           />
-          <Input
-            inputdiv={"input-div col-md-4 four1 col-md-8 col-11"}
-            inputfield={"input-field col-lg-11 col-11"}
-            icon={"fa fa-user"}
-            placeholder={"Name"}
-            type={"name"}
-          />
+          <div className="input-div col-md-4 four1 col-md-8 col-11">
+            <textarea
+              className="input-field col-lg-11 col-11"
+              placeholder="Message"
+              name="textarea"
+              id=""
+            ></textarea>
+          </div>
 
           <Input
             inputdiv={"input-div file col-md-4 col-md-8 col-11"}
             inputfield={"input-field col-lg-11 col-11 "}
-            // icon={"fa fa-user"}
-            placeholder={""}
+            placeholder={"Hello"}
             type={"file"}
           />
+        </div>
+        <div className="d-flex justify-content-center">
+          <Button btnclassname={"col-sm-5 col-8 button"} btnvalue={"Submit"} />
         </div>
       </div>
       <Dashboardfooter />
