@@ -40,11 +40,14 @@
   position: relative;
   display: flex;
   left: 10%;
-  width: 350px;
+  width: 550px;
   align-items: center;
   z-index: 1;
   height: 100%;
   color: white;
+}
+.carousel-captio h1 {
+  font-size: calc(2rem + 2vw);
 }
 .carousel-item img {
   position: absolute;
@@ -53,28 +56,31 @@
   object-fit: cover;
 }
 
+.carousel-item img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 0 300px rgba(25, 25, 25, 0.447) inset;
+  filter: blur(1px);
+}
+.carousel-inner .carousel-item:nth-child(1) img {
+  background-image: url("../asset/sample1/scroll1.png");
+}
+.carousel-inner .carousel-item:nth-child(2) img {
+  background-image: url("../asset/sample1/scroll2.png");
+}
+.carousel-inner .carousel-item:nth-child(3) img {
+  background-image: url("../asset/sample1/scroll3.png");
+}
+
 @media screen and (max-width: 576px) {
   .carousel-item {
-    height: 500px;
-    background-color: aqua;
-  }
-  .carousel-captio h1 {
-    font-size: 1rem !important;
+    height: 300px;
   }
   .carousel-captio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(121, 121, 122, 0.708) 1px 1px 5px 0px inset,
-      rgba(151, 147, 147, 0.5) -1px -1px 5px 1px inset;
-    border-radius: 10px;
-    background-color: rgba(252, 252, 252, 0.81);
-    color: rgb(0, 0, 0);
-    left: 20%;
-    top: 60%;
-    height: 100px;
-    width: 200px;
-    text-align: center;
+    width: 250px;
+  }
+  .carousel-captio h1 {
+    font-size: 2rem !important;
   }
 }
 
@@ -102,7 +108,7 @@
   object-fit: cover;
   position: relative;
   top: 0;
-  transition: all ease 1s;
+  transition: all 0.5s;
   margin-top: -80px;
   background-color: white;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -111,6 +117,7 @@
 
 .testimonial .test-div:hover {
   transform: scale(1.05) !important;
+  transition: all 0.5s;
   background-color: #a3e4d7;
   box-shadow: none;
   cursor: pointer;
@@ -391,6 +398,9 @@ input[type="number"] {
 }
 
 /* *****CONTACT US LOGIN***** */
+.contactus .mainpagehead img {
+  width: 500px;
+}
 .contactus-login {
   grid-gap: 40px 20px;
   padding: 40px 0px 50px 0px;

@@ -16,12 +16,13 @@ export function Contactus() {
       <div className="mainpagehead pt-1">
         <Firstsildes
           h1={`𝗖𝗼𝗺𝗲 𝗝𝗼𝗶𝗻 𝗨𝘀 & 𝗘𝘅𝗽𝗹𝗼𝗿𝗲 𝗡𝗲𝘄 𝗢𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝗶𝗲`}
-          img="https://value4brand.com/wp-content/uploads/2022/07/64-scaled.webp"
+          img={require("../../../asset/sample1/main1.png")}
         />
       </div>
-      <Text h1={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} h2={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} />
 
-      <div className="mt-5" data-aos="zoom-out">
+      <div className=" bg-light py-5" data-aos="zoom-up">
+        <Text h1={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} h2={"𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗨𝗦"} />
+
         <div className=" mx-auto d-flex contactus-login flex-wrap justify-content-center px-lg-0 px-sm-5">
           <Input
             inputdiv={"input-div col-lg-4 col-md-8 col-11"}

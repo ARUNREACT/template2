@@ -3,7 +3,7 @@ import "../component/Layout.css";
 export function Carousel(props: any) {
   return (
     <div className={props.classname} data-bs-interval={props.interval}>
-      <img src={props.img} className="d-block img-fluid w-100" alt="..." />
+      <img src={props.img1} className="d-block img-fluid w-100" alt="..." />
       <div className="carousel-captio">
         <h1 className="">{props.h1}</h1>
         <p>{props.p}</p>
@@ -14,7 +14,7 @@ export function Carousel(props: any) {
 
 export function Testimonial(props: any) {
   return (
-    <div className="test-div" data-aos="zoom-out">
+    <div className="test-div" data-aos="zoom-in">
       <img className="img-fluid test-img" src={props.img} alt="testimonial" />
       <h2 className="">{props.h2}</h2>
       <h4 className="">{props.h4}</h4>

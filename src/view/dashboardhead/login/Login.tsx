@@ -17,7 +17,7 @@ export function Login() {
               <div className="form-img">
                 <img
                   className="img-fluid"
-                  src="https://ouch-cdn2.icons8.com/9FZFmNzLmJtt4cz8XtfpAlnQmY8bUxTOTqjXb-RabcE/rs:fit:624:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjMx/LzQ2YzVhYjYyLWE2/OGYtNDlmZS1iOTUy/LTJiYTJiNjJjYWM0/YS5wbmc.png"
+                  src={require("../../../asset/sample1/login.png")}
                 ></img>
               </div>
 

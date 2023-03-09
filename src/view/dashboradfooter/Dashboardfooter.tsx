@@ -19,7 +19,7 @@ export function Dashboardfooter() {
         <div className="row foot justify-content-center ">
           <div className="footimg col-12 col-md-3 col-lg-3">
             <img
-              src="https://i.pinimg.com/originals/33/47/e3/3347e3e3f648834203ecad5a0eb19a75.png"
+              src={require("../../asset/sample1/logo.png")}
               alt="paype logo"
               className="img-fluid  mt-sm-4 "
             />

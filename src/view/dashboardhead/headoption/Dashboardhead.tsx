@@ -19,7 +19,7 @@ export function Dashboardhead() {
         <div className="col d-flex align-items-center justify-content-between  px-0">
           <a className="head-logo " href="/">
             <img
-              src="https://i.pinimg.com/originals/33/47/e3/3347e3e3f648834203ecad5a0eb19a75.png"
+              src={require("../../../asset/sample1/logo.png")}
               alt="paype logo"
               className="logo-circle"
             />
@@ -45,7 +45,7 @@ export function Dashboardhead() {
             >
               <a className="head-logo" href="/">
                 <img
-                  src="https://www.paype.co.in/static/media/Paype%20circle.d66c49586b04e5d30bff.png"
+                  src={require("../../../asset/sample1/logo.png")}
                   alt="paype logo"
                   className="logo-circle"
                 />
