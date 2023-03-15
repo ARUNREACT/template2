@@ -117,19 +117,19 @@ export function Dashboard() {
           img={require("../../asset/sample1/arun.png")}
           h4={`Arun Kumar`}
           p1={`Fronted Developer`}
-          p2={`Vidcom ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko vidcom ki sewaon upyog k liye salah dunga.`}
+          p2={`paype ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko paype ki sewaon upyog k liye salah dunga.`}
         />
         <Testimonial
           img={require("../../asset/sample1/arun.png")}
           h4={`Arun Kumar`}
           p1={`Fronted Developer`}
-          p2={`Vidcom ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko vidcom ki sewaon upyog k liye salah dunga.`}
+          p2={`paype ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko paype ki sewaon upyog k liye salah dunga.`}
         />
         <Testimonial
           img={require("../../asset/sample1/arun.png")}
           h4={`Arun Kumar`}
           p1={`Fronted Developer`}
-          p2={`Vidcom ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko vidcom ki sewaon upyog k liye salah dunga.`}
+          p2={`paype ke sevaye bahut ni surakshit aur vishwasniye hai mujhe bahut aacha laga. Main sab ko paype ki sewaon upyog k liye salah dunga.`}
         />
       </div>
       <Dashboardfooter />

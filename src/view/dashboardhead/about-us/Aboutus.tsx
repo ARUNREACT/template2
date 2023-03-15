@@ -14,14 +14,14 @@ export function Aboutus() {
       </div>
       <div className="d-flex flex-wrap mission justify-content-around">
         <Testimonial
-          img={"https://vidcom.in/images/mission.png"}
+          img={require("../../../asset/sample1/mission1.png")}
           h2={"𝗢𝘂𝗿 𝗠𝗶𝘀𝘀𝗶𝗼𝗻"}
-          p1={`Vidcom is building the largest network of its business associates and these associates are equipped with technology and connectivity to provide retail financial services via a one stop payment solution platform for its end customers.`}
+          p1={`paype is building the largest network of its business associates and these associates are equipped with technology and connectivity to provide retail financial services via a one stop payment solution platform for its end customers.`}
         />
         <Testimonial
-          img={"https://vidcom.in/images/mission.png"}
+          img={require("../../../asset/sample1/Vision1.png")}
           h2={"𝗢𝘂𝗿 𝘃𝗶𝘀𝗶𝗼𝗻"}
-          p1={`Vidcom brings banking and financial services to millions of Indian consumers who are under banked and unbanked, to provide banking services at doorstep.`}
+          p1={`paype brings banking and financial services to millions of Indian consumers who are under banked and unbanked, to provide banking services at doorstep.`}
         />
       </div>
 
